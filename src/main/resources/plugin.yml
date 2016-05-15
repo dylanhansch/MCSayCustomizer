@@ -1,0 +1,14 @@
+main: ${main.class}
+name: ${project.name}
+version: ${project.version}
+description: Customize the Minecraft "Say" command
+author: Dylan Hansch
+website: https://dylanhansch.net
+commands:
+    say:
+        description: Broadcast message to entire server.
+        usage: /<command> <message>
+permissions:
+    mcsaycustomizer.say:
+        description: Broadcast message to entire server.
+        default: op
