@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.dylanhansch</groupId>
     <artifactId>mcsaycustomizer</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
     <name>MCSayCustomizer</name>
     <properties>
@@ -46,4 +46,6 @@
             </resource>    
         </resources>
     </build>
+    <url>https://dylanhansch.net</url>
+    <description>Customize the Minecraft &quot;Say&quot; command</description>
 </project>

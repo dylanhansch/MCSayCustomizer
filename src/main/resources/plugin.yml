@@ -1,9 +1,9 @@
 main: ${main.class}
 name: ${project.name}
 version: ${project.version}
-description: Customize the Minecraft "Say" command
+description: ${project.description}
 author: Dylan Hansch
-website: https://dylanhansch.net
+website: ${project.url}
 commands:
     say:
         description: Broadcast message to entire server.
